@@ -1,0 +1,38 @@
+/*Ini CSS Eksternal*/
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Added padding */
+    background-color: #f8f9fa; /* Added background color */
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://picsum.photos/500);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+nav > a {
+    border: 1px solid;
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 2px;
+    margin-right: 5px; /* Added margin */
+}
+
+.no-border-radius {
+    border-radius: 0px;
+}
+
+.main-container {
+    display: flex;
+    border: 1px solid;
+    height: 400px;
+    padding: 10px; /* Added padding */
+    background-color: #ffffff; /* Added background color */
+}
